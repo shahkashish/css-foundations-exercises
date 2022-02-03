@@ -1,0 +1,18 @@
+.class1, .cooler-class, .class5{
+    background-color: rgb(255, 182, 193);
+    font-family: Verdana, DejaVU Sans, sans-serif;
+}
+#id1{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+
+}
+.cooler-class{
+    font-size: 24px;
+
+}
+#anid{
+    background: lightgreen ;
+    font-size: 24px;
+    font-weight: bold;
+}
