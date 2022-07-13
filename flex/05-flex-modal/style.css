@@ -18,8 +18,29 @@ body {
 .modal {
   background: white;
   width: 480px;
+  height: 200px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  
+}
+
+.header {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    gap: 145px;
+    margin-top: 10px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .icon {
@@ -27,12 +48,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 175px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  
 }
 
 .close-button {
@@ -51,6 +74,8 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 5px;
+  margin-left: 0px;
 }
 
 button.continue {
